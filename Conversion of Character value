@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+    char ch=128;
+    printf("%d\n",ch);
+    printf("%x\n",ch);
+    printf("%o\n",ch);
+    
+    
+    printf("%d\n",ch);
+    printf("%hx\n",ch);
+    printf("%ho\n",ch);
+    
+    //%x,%o always will give anaswers in 4 bytes
+    
+    //%X---4byte--%o
+    //hx---2byte--%ho
+    //hhx--1byte--%hho
+}
