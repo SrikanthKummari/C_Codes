@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    //for 64 bit system in gcc compiler
+    printf("%ld\n",sizeof(char));
+    printf("%ld\n",sizeof(short int));
+    printf("%ld\n",sizeof(long int));
+    printf("ld\n",sizeof(long long int));
+    printf("ld\n",sizeof(int));
+    
+    //for 32 bit system in gcc compiler
+    printf("%d\n",sizeof(long long int));
+    printf("%\n",sizeof(int));
+}
