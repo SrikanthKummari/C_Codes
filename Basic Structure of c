@@ -1,0 +1,15 @@
+#include<stdio.h>
+//global variables
+//userdefinded function prototypes(declaration)
+void main()
+{
+    //logic variables
+    //logic
+}
+//user defind fuctions
+
+//singleline comment
+
+*/ multi
+  line
+  comments*/
