@@ -2,15 +2,16 @@
 
 int main() 
 {
-    int num,temp,sum=0;
+    int num,temp,sum,j;
     printf("enter a number");
     scanf("%d",&num);
     if(num<=1)
     printf("error");
-    else if(num%2==0)
-    {
-        temp=num%10;
-        sum=sum+temp;
-        printf("sum=%d\n",sum);
-    }
+    for(sum=0;temp<=num;temp++)
+    if(temp%2==0)
+    sum+=temp;
+    
+    printf("sum=%d",sum);
 }
+
+
