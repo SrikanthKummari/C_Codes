@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int num=12435682,mul=1,add=0,temp,temp1;
+    for(add,mul;num;num=num/10)
+    {
+        temp=num%10;
+        temp1=temp%2;
+        if(temp1==0)
+        mul=mul*temp;
+        else
+        add=add+temp;
+    }
+    printf("multiplication=%d\naddition=%d\n",mul,add);
+}
