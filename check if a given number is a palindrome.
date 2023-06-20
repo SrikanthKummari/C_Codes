@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() 
+{
+    int num,temp,i,p;
+    printf("enter a number\n");
+    scanf("%d",&num);
+    for(temp=num,p=0;temp;temp=temp/10)
+    {
+        i=temp%10;
+        p=p*10+i;
+    }
+    if(num==p)
+    printf("yes it is palindrome %d\n",p);
+    else
+    printf("no its not a palindrome");
+}
