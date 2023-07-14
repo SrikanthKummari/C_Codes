@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int num,c,rev;
+    printf("Enter a num:");
+    scanf("%d",&num);
+    for(num,c=0;num;num=num/10)
+    {
+        rev=num%10;
+        c++;
+    }
+    printf("%d\n",c);
+}
