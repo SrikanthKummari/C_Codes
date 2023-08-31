@@ -1,0 +1,27 @@
+#include<stdio.h>
+void str_rep(char *s,char c,char r)
+{
+int i,j;
+for(i=0;s[i];i++)
+{
+	if(s[i]==c)
+	{
+		s[i]=r;	
+	}
+
+}
+}
+
+
+void main()
+{
+char s[10],c,r;
+printf("enter the str\n");
+scanf("%s",s);
+printf("old char\n");
+scanf(" %c",&c);
+printf("replce char\n");
+scanf(" %c",&r);
+str_rep(s,c,r);
+printf("%s\n",s);
+}
